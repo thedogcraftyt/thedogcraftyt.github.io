@@ -1,4 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu+Condensed");
+@font-face {
+    font-family: 'pixellarimedium';
+    src: url('pixellari-webfont.woff2') format('woff2'),
+         url('pixellari-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /*
 	Minimaxing by HTML5 UP
@@ -89,7 +96,7 @@ input, select, textarea {
 		font-size: 13.5pt;
 		font-family: sans-serif;
 		background-color: #e3e9dc;
-		font-family: 'Ubuntu Condensed', sans-serif;
+		font-family: 'Pixellari', sans-serif;
 		color: #878e83;
 		letter-spacing: -1px;
 	}
